@@ -21,7 +21,7 @@ export declare class Couchbase extends Common {
 
     updateDocument(documentId: string, data: any): void;
 
-    deleteDocument(documentId: string): any;
+    deleteDocument(documentId: string, concurrencyMode?: ConcurrencyMode): any;
 
     destroyDatabase(): void;
 
