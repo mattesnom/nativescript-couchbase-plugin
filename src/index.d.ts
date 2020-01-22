@@ -1,4 +1,4 @@
-import { Common, Query, ReplicatorBase } from './couchbase-plugin.common';
+import { Common, Query, ReplicatorBase, ConcurrencyMode } from './couchbase-plugin.common';
 
 export {
     ConcurrencyMode, Query, QueryMeta, QueryArrayOperator, QueryComparisonOperator, QueryLogicalOperator, QueryOrderItem, QueryWhereItem
